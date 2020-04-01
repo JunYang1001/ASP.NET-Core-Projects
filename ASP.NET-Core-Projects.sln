@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{05DDEDD9-0922-4669-8FCB-ACABDE92D3C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{508A3E36-1D84-4B2C-B6A1-6548EC88B054}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{508A3E36-1D84-4B2C-B6A1-6548EC88B054}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPNETCoreProgrmmingSourceCode", "ASPNETCoreProgrmmingSourceCode", "{E4759569-A786-4E48-AF39-FBF0D0BE82B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch02MiniWeb", "Ch02MiniWeb\Ch02MiniWeb.csproj", "{954D9612-FC22-48CF-9684-213F10A595E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{508A3E36-1D84-4B2C-B6A1-6548EC88B054}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{508A3E36-1D84-4B2C-B6A1-6548EC88B054}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{508A3E36-1D84-4B2C-B6A1-6548EC88B054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954D9612-FC22-48CF-9684-213F10A595E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954D9612-FC22-48CF-9684-213F10A595E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954D9612-FC22-48CF-9684-213F10A595E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954D9612-FC22-48CF-9684-213F10A595E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{954D9612-FC22-48CF-9684-213F10A595E5} = {E4759569-A786-4E48-AF39-FBF0D0BE82B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {895F59DB-7B26-45B5-A787-BBAF00ABAA8B}
