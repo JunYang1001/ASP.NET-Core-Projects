@@ -19,6 +19,7 @@ namespace Ch02MiniWeb
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<ICountryRespository,CountryRepository>();
+            services.AddDirectoryBrowser();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -30,6 +31,9 @@ namespace Ch02MiniWeb
             }
 
             app.UseRouting();
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+            app.UseDirectoryBrowser();
             app.Map("/country", countryApp =>
             {
                 countryApp.Run(async (context) =>
